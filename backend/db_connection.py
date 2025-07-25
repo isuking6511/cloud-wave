@@ -2,7 +2,7 @@ import psycopg2
 
 def get_db_connection():
     conn = psycopg2.connect(
-        host='localhost',
+        host='',
         database='trip_advisor',
         user='user',
         password='qwer1234'
